@@ -19,9 +19,9 @@ xdotool key alt+f sleep 0.5 key a sleep 1
 file_name='FB_rubhewtookyang_'$(date +%d_%m_%Y_%X)
 xdotool type $file_name
 xdotool key KP_Enter sleep 4 key ctrl+w
-mv ~/Downloads/$file_name.html ~/Documents/web_crawler/save_page
+mv ~/Downloads/$file_name.html ~/Documents/Web-Crawler/save_page
 sleep 3
 rm -r ~/Downloads/$file_name'_files'
-cd ~/Documents/web_crawler/save_page
+cd ~/Documents/Web-Crawler/save_page
 
 #python3 ../parse_query.py $file_name.html
