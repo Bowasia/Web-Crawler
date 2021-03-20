@@ -3,8 +3,8 @@ from urllib.parse import urlparse
 import sys
 import csv
 
-input_link = "FB_rubhewtookyang_16_03_2021_21:31:32.html"
-#input_link = sys.argv[1]+".html"
+#input_link = "FB_rubhewtookyang_16_03_2021_21:31:32.html"
+input_link = sys.argv[1]+".html"
 
 data_official = []
 data_personal = []
