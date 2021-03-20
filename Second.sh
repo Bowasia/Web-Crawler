@@ -24,4 +24,5 @@ sleep 3
 rm -r ~/Downloads/$file_name'_files'
 cd ~/Documents/Web-Crawler/save_page
 
+python3 ../soup_parse.py "${file_name}"
 #python3 ../parse_query.py $file_name.html
