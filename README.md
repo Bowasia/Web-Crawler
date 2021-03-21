@@ -9,13 +9,14 @@ save_page <-- where the saved raw html and csv data saved
 
 
 
-### Now working on 
--read_csv.py to use data from csv to get basic contact info
+* ### Now working on 
+  * - [ ] read_csv.py to use data from csv to get basic contact info
+  * - [ ] find class attribute to identify the data
 
 
 
-### Need to concern
--Name of the source code should relate to what it really does
--Location of folder
--Delete every file that are not needed
+* ### Need to concern
+  * Name of the source code should relate to what it really does
+  * Location of folder
+  * Delete every file that are not needed
 
