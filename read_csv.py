@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#this file read the link in csv file that has been saved previeously
 from urllib.parse import urlparse
 import csv
 import os
