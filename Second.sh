@@ -4,9 +4,9 @@
 start_url="https://www.facebook.com/hashtag/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AB%E0%B8%B4%E0%B9%89%E0%B8%A7%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87"
 
 #edit scroll times
-scroll=30
+scroll=1000
 
-firefox $start_url
+chromium $start_url
 sleep 3
 
 for ((i=1;i<=$scroll;i++))
