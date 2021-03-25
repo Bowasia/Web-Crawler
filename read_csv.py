@@ -22,13 +22,13 @@ with open('data_personal_link_1.csv') as csvfile:
              path_reverse = str(path[::-1])
              print(path_reverse[0:3])
              if path_reverse[0:3] == "php":
-                 open_this_link = obj[1] + path + "?" + id + "&sk=about_contact_and_basic_info"
+                 open_this_link = obj[1] + path + "?" + id + "//&sk=about_contact_and_basic_info"
              else:
                 open_this_link = obj[1] + obj[2] + '/about_contact_and_basic_info'
              print(open_this_link)
              print(obj)
              print('\n')
-             os.system("firefox " + open_this_link)
+             os.system("chromium " + open_this_link)
              os.system("sleep 2")
              os.system("xdotool key alt+f sleep 0.5 key a sleep 1")
              os.system("xdotool type " + row['Number'] + "_personal")
